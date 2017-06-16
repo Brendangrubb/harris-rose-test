@@ -63,9 +63,19 @@ body {
   opacity: .9;
 }
 
+#test-box {
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+  border: 5px solid black;
+  border-radius: 15px;
+  margin-left: 250px;
+  margin-top: 550px;
+}
 
-
-
+#spacer {
+  height: 1000px;
+}
 
 
 
