@@ -1,34 +1,77 @@
+
+// JQUERY BODYGUARD
 ( function($) {
 
   $(document).ready(function() {
+
+    // PANEL ONE
     var logo = document.getElementById("harris-logo");
     var sign = document.getElementById("cigales-sign");
     var words = document.getElementById("cigales-words");
+    var phrase = document.getElementById("title-two");
 
+    // TEST SCRIPT TO SPLIT LETTERS/PUT IN DIVs FOR TEXT ANIMATION
+    // var titles = document.getElementById("title-one");
+    // var splittitles = titles.innerHTML.split("");
+    // for (var i = 0; i < splittitles.length; i++) {
+    //   splittitles[i] = splittitles[i] + "</div><div class='letter'>"
+    // }
+    // var newsplittitles = splittitles.join('');
+    // console.log(newsplittitles);
+
+    // STAGGERED LETTER TEXT ANIMATION
+    TweenMax.staggerFrom(".letter", 1, {
+      opacity:0,
+      scale: 2,
+      ease: Circ.easeOut,
+      delay:3.5,
+    },
+    .15);
+    // TITLE-TWO TEXT ANIMATION
+    TweenMax.from(phrase, 2, {
+      opacity: 0,
+      scale: 2,
+      ease: Circ.easeOut,
+      delay:7,
+    });
+    // HARRIS LOGO SPIN ANIMATION
     TweenMax.from(logo, 3, {
       rotation: 360,
       opacity: 0,
       scale: 0,
       ease: Sine.easeOut,
     });
-
     TweenMax.to(logo, 1, {
       opacity: 0.0,
       delay: 3
     });
-
+    // CIGALES SIGN FADE IN ANIMATION
     TweenMax.from(sign, 1, {
       opacity: 0.0,
       delay: 3
     });
-
+    // CIGALES SIGN WORDS SLIDE IN ANIMATION
     TweenMax.from(words, 2, {
       opacity: .2,
       x: 1000,
-      delay: 4
+      delay: 8
     });
+    // END PANEL ONE
+
+    // PANEL TWO
+
+
+
+
+    // END PANEL TWO
   });
+  // END (D)R(F)
 })(jQuery);
+// END JQUERY BODYGUARD
+
+
+
+
 
 
 
