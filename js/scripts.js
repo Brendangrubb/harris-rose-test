@@ -61,15 +61,15 @@
     // PANEL TWO
 
     var scrollMagicController = new ScrollMagic.Controller();
-
-
-    var testBoxAnimation = TweenMax.to('#test-box', 1, {
-      backgroundColor: "#c66a1c",
-      scale: .5,
-      rotation: 1440
-    });
-
-    var panelTwoScene = new ScrollMagic.Scene({triggerElement: '#trigger', offset: 350}).setTween(testBoxAnimation).addIndicators().addTo(scrollMagicController);
+    //
+    //
+    // var testBoxAnimation = TweenMax.to('#test-box', 1, {
+    //   backgroundColor: "#c66a1c",
+    //   scale: .5,
+    //   rotation: 1440
+    // });
+    //
+    // var panelTwoScene = new ScrollMagic.Scene({triggerElement: '#trigger', offset: 600}).setTween(testBoxAnimation).addIndicators().addTo(scrollMagicController);
 
     // END PANEL TWO
 
