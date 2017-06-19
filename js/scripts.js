@@ -68,9 +68,9 @@
           scale: 2,
           ease: Circ.easeOut
         },
-        .15);
+        3);
 
-    var panelTwoScene = new ScrollMagic.Scene({triggerElement: '#trigger', offset: 850})
+    var panelTwoScene = new ScrollMagic.Scene({triggerElement: '#trigger', offset: 325})
     .setTween(panelTwoAnimation)
     .addIndicators()
     .addTo(scrollMagicController);

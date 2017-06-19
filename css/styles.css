@@ -101,7 +101,7 @@ body {
     top: 0;
     text-align: center;
   }
-  
+
   #title-two {
     font-size: 5vw;
     letter-spacing: 1px;
@@ -112,20 +112,24 @@ body {
 
 
 /* Panel Two-All Styles */
+.panel-two {
+  position: relative;
+}
 
 .letter-two {
   display: inline-block;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 4.5vw;
-  letter-spacing: 3px;
-  word-spacing: 4px;
+  font-size: 3vw;
+  letter-spacing: 1.5px;
+  word-spacing: 2px;
   text-shadow: 1px 1px 1px black;
   color: #E7E6D4;
   opacity: .9;
 }
 
 #panel-two-text {
-  margin-top: 100vh;
+  position: absolute;
+  top: 0;
 }
 
 #chimneys {
@@ -133,6 +137,18 @@ body {
   height: auto;
 }
 
+@media only screen and (max-width: 768px) {
+  #chimneys {
+    width: 200vh;
+    margin-left: 30%;
+  }
+
+  #trigger {
+    position: relative;
+    top: -75px;
+  }
+
+}
 
 
 
