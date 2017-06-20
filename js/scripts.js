@@ -63,7 +63,14 @@
 
     // PANEL TWO
 
-    var scrollMagicController = new ScrollMagic.Controller();
+    var scrollMagicController = new ScrollMagic.Controller(
+      // ATTEMPTED PANEL SCROLL, CURRENTLY NOT OPTIMIZED, SEE LINE 90
+      // {
+      //   globalSceneOptions: {
+      //     trigerHook: 'onLeave'
+      //   }
+      // }
+    );
 
     var panelTwoAnimation =
      TweenMax.staggerFrom(letterTwo, 1, {
@@ -80,7 +87,16 @@
 
     // END PANEL TWO
 
-
+    // ATTEMPTED PANEL SCROLL, CURRENTLY NOT OPTIMIZED, SEE LINE 67
+    // var panels = document.querySelectorAll("div.panel");
+    // for (var i = 0; i < panels.length; i++) {
+    //   new ScrollMagic.Scene({
+    //     triggerElement: panels[i]
+    //   })
+    //   .setPin(panels[i])
+    //   .addIndicators()
+    //   .addTo(scrollMagicController);
+    // }
 
 
   });
