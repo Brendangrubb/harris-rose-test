@@ -9,6 +9,9 @@
     var sign = document.getElementById("cigales-sign");
     var words = document.getElementById("cigales-words");
     var phrase = document.getElementById("title-two");
+    var letter = document.getElementsByClassName("letter");
+    var letterTwo = document.getElementsByClassName("letter-two");
+    var trigger = document.getElementById("trigger");
 
     // TEST SCRIPT TO SPLIT LETTERS/PUT IN DIVs FOR TEXT ANIMATION
     // var titles = document.getElementById("title-one");
@@ -20,7 +23,7 @@
     // console.log(newsplittitles);
 
     // STAGGERED LETTER TEXT ANIMATION
-    TweenMax.staggerFrom(".letter", 1, {
+    TweenMax.staggerFrom(letter, 1, {
       opacity:0,
       scale: 2,
       ease: Circ.easeOut,
@@ -63,14 +66,14 @@
     var scrollMagicController = new ScrollMagic.Controller();
 
     var panelTwoAnimation =
-     TweenMax.staggerFrom(".letter-two", 1, {
+     TweenMax.staggerFrom(letterTwo, 1, {
           opacity:0,
           scale: 2,
           ease: Circ.easeOut
         },
         3);
 
-    var panelTwoScene = new ScrollMagic.Scene({triggerElement: '#trigger', offset: 325})
+    var panelTwoScene = new ScrollMagic.Scene({triggerElement: trigger, offset: 325})
     .setTween(panelTwoAnimation)
     .addIndicators()
     .addTo(scrollMagicController);
