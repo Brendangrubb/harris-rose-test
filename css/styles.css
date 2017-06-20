@@ -165,11 +165,61 @@ body {
 }
 
 
+/* Panel Three-All Styles */
+.panel-three {
+  position: relative;
+}
+
+#red-door {
+  width: 100vw;
+  height: auto;
+  margin-left: 0%;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  #red-door {
+    width: 200vh;
+  }
+}
 
 
 
+/* Panel Four-All Styles */
+.panel-four {
+  position: relative;
+}
+
+#shack {
+  width: 100vw;
+  height: auto;
+}
 
 
+@media only screen and (max-width: 768px) {
+  #shack {
+    width: 200vh;
+  }
+}
+
+
+
+/* Panel Five-All Styles */
+.panel-five {
+  position: relative;
+}
+
+#castle {
+  width: 100vw;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  #castle {
+    width: 200vh;
+  }
+}
 
 
 
