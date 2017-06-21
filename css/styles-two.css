@@ -90,6 +90,16 @@ body {
   width: 15%;
 }
 
+#panel-two-wine:hover {
+  cursor: pointer;
+}
+
+.panel-flip {
+  transform: rotateY(180deg);
+  transition: 0.6s;
+  transform-style: preserve-3d;
+}
+
 /* Panel Three-All Styles */
 #red-door {
   position: relative;
@@ -138,6 +148,9 @@ body {
   width: 15%;
 }
 
+#panel-three-wine:hover {
+  cursor: pointer;
+}
 
 /* Panel Four-All Styles */
 #shack {
@@ -166,6 +179,10 @@ body {
   right: 1%;
   position: absolute;
   width: 15%;
+}
+
+#panel-four-wine:hover {
+  cursor: pointer;
 }
 
 
@@ -198,6 +215,9 @@ body {
   width: 15%;
 }
 
+#panel-five-wine:hover {
+  cursor: pointer;
+}
 
 
 /*MEDIA QUERIES*/
