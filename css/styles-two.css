@@ -1,0 +1,242 @@
+/* Page Styles */
+body {
+  background-color: #E7E6D4;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel {
+  position: relative;
+  width: 100%;
+  border: 10px solid black;
+  border-radius: 10px;
+}
+
+/* Panel One-All Styles */
+#cigales-sign-full {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+#panel-one-text {
+  position: absolute;
+  top: 3%;
+  left: 4%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: 1px 1px 1px black;
+  color: #E7E6D4;
+  opacity: .9;
+
+}
+
+.text-one {
+  font-size: 5.5vw;
+  letter-spacing: 2px;
+  word-spacing: 3.5px;
+
+}
+
+.text-two {
+  font-size: 3vw;
+  letter-spacing: 1.5px;
+  word-spacing: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+
+/* Panel Two-All Styles */
+#chimneys {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+#panel-two-text {
+  position: absolute;
+  top: 5%;
+  left: 47%;
+  right: 5%;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 1%;
+  border-radius: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: 1px 1px 1px black;
+  color: #E7E6D4;
+  opacity: .9;
+}
+
+.text-three {
+  font-size: 2vw;
+  letter-spacing: 1.5px;
+  word-spacing: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+
+
+/* Panel Three-All Styles */
+#red-door {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+#panel-three-text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: 1px 1px 1px black;
+  color: #E7E6D4;
+  opacity: .9;
+}
+
+#panel-three-left-text {
+  position: absolute;
+  top: 45%;
+  left: 3%;
+  max-width: 30%;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1%;
+  border-radius: 10px;
+}
+
+#panel-three-right-text {
+  position: absolute;
+  top: 45%;
+  left: 67%;
+  right: 3%;
+  max-width: 40%;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1%;
+  border-radius: 10px;
+}
+
+.text-four {
+  font-size: 1.3vw;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+
+
+/* Panel Four-All Styles */
+#shack {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+
+
+/* Panel Five-All Styles */
+#castle {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*OLD STYLES-IDENTICAL TO GREENSOCK-TEST*/
+
+/*.center {
+  display: flex;
+  justify-content: space-around;
+}
+
+img.center {
+  display: flex;
+  justify-content: center;
+}
+
+.col-style {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.output-intro {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.logo {
+  margin: 20px;
+  max-width: 300px;
+  width: 30%;
+  position:absolute;
+}
+
+.logo-two {
+  margin: 20px;
+  max-width: 300px;
+  width: 30%;
+  position:absolute;
+
+}
+.text-columns {
+  margin-top: 50px;
+}
+
+.bottom-logo {
+  margin-top: 125px;
+}
+
+.box {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 350px;
+  width: 100px;
+  height: 10vh;
+  background-color: rgba(30,215,115,.8);
+  border: 8px solid #d71e82;
+  border-radius: 15px;
+}*/
