@@ -133,7 +133,6 @@ body {
   text-shadow: 1px 1px 1px black;
   color: white;
   opacity: .9;
-
   position: absolute;
   top: 53%;
   left: 3%;
@@ -189,14 +188,14 @@ body {
   #cigales-sign-full {
     visibility: hidden;
   }
-}
-/*
-@media only screen and (max-width: 320px) {
-  #cigales-sign-full {
-    width: inherit;
-    height: 50%;
+  .text-one {
+    font-size: 6vw;
   }
-}*/
+  .text-two {
+    margin-top: 3%;
+    font-size: 4vw;
+  }
+}
 
 /*Panel Two*/
 @media only screen and (max-width: 481px) {
@@ -211,15 +210,14 @@ body {
 
   #panel-two-text {
     width: 95%;
-    height: 95%;
-    top: 2.5%;
+    top: 35%;
     left: 2.5%;
     right: 2.5%;
     bottom: 2.5%;
   }
 
   .text-three {
-    font-size: 4vw;
+    font-size: 3.5vw;
   }
 }
 
@@ -232,6 +230,22 @@ body {
     background: url("../img/red-door.png") center;
     background-size: cover;
   }
+  #panel-three-left-text {
+    top: 4%;
+    left: 3%;
+    right: 3%;
+    max-width: 90%;
+  }
+  #panel-three-right-text {
+    top: 50%;
+    left: 3%;
+    right: 3%;
+    max-width: 90%;
+  }
+  .text-four {
+    font-size: 3vw;
+
+  }
 }
 
 /*Panel Four*/
@@ -243,6 +257,13 @@ body {
     background: url("../img/shack.png") center;
     background-size: cover;
   }
+  #panel-four-text {
+    max-width: 95%;
+    top: 53%;
+    left: 2.5%;
+    right: 2.5%;
+    bottom: 2.5%;
+  }
 }
 
 /*Panel Five*/
@@ -253,6 +274,11 @@ body {
   .panel-five {
     background: url("../img/castle.png");
     background-size: cover;
+  }
+  #panel-five-text {
+    max-width: 95%;
+    top: 30%;
+    left: 2.5%;
   }
 }
 
