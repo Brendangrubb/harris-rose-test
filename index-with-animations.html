@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Greensock Test</title>
+  <!-- BOOTSTRAP CDN -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha383-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg3Va+PmSTsz/K68vbdEjh3u" crossorigin="anonymous">
+  <!-- CUSTOM STYLESHEET -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- JQUERY CDN -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <!-- GSAP CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+  <!-- SCROLLMAGIC CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+  <!-- CUSTOM SCRIPTS -->
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- BEGIN PANEL ONE -->
+    <div class="panel panel-one">
+      <!-- HARRIS WINE CIRCLE LOGO -->
+      <div class="center">
+        <img id="harris-logo" src="img/harris-logo-trans.png" alt="harris logo">
+      </div>
+      <!-- CIGALES SIGN PICTURE -->
+      <div class="center">
+        <img id="cigales-sign" src="img/cigales-sign.png" alt="cigales sign">
+      </div>
+      <!-- CIGALES WORDS FOR SIGN PICTURE -->
+      <div class="center">
+        <img id="cigales-words" src="img/cigales-words.png" alt="cigales words">
+      </div>
+      <!-- EVERY ROSÉ HAS IT'S THORN TEXT, SEPARATED FOR ANIMATION-->
+      <div id="title-one">
+        <div class="letter title-letter">E</div>
+        <div class="letter title-letter">v</div>
+        <div class="letter title-letter">e</div>
+        <div class="letter title-letter">r</div>
+        <div class="letter title-letter">y&nbsp;</div>
+        <div class="letter title-letter">R</div>
+        <div class="letter title-letter">o</div>
+        <div class="letter title-letter">s</div>
+        <div class="letter title-letter">é&nbsp;</div>
+        <div class="break"><br></div>
+        <div class="letter">h</div>
+        <div class="letter">a</div>
+        <div class="letter">s&nbsp;</div>
+        <div class="letter">i</div>
+        <div class="letter">t</div>
+        <div class="letter">'</div>
+        <div class="letter">s&nbsp;</div>
+        <div class="letter">T</div>
+        <div class="letter">h</div>
+        <div class="letter">o</div>
+        <div class="letter">r</div>
+        <div class="letter">n</div>
+        <!-- HOW THEY DO IT IN TEXT -->
+        <span id="title-two"><br>How they do it in</span>
+      </div>
+    </div>
+    <!-- END PANEL ONE -->
+
+
+
+
+    <!-- BEGIN PANEL TWO -->
+    <div class="panel panel-two">
+      <div id="trigger"></div>
+      <!-- CHIMNEYS PICTURE -->
+      <div class="center">
+        <img id="chimneys" src="img/chimneys.png" alt="cigales chimney">
+      </div>
+      <!-- CENTURYS AGO TEXT -->
+      <div id="panel-two-text">
+        <div class="letter-two">Centuries ago, tunnels were constructed beneath the town to store the wine while it fermented.</div>
+        <div class="letter-two">The chimneys provide ventilation.</div>
+        <div class="letter-two">Dig it deep and keep it cool.</div>
+      </div>
+    </div>
+    <!-- END PANEL TWO -->
+
+
+    <!-- BEGIN PANEL THREE -->
+      <div class="panel panel-three">
+        <div class="center">
+          <img id="red-door" src="img/red-door.png" alt="cigales chimney hut with a red door">
+        </div>
+      </div>
+    <!-- END PANEL THREE -->
+
+    <!-- BEGIN PANEL FOUR -->
+      <div class="panel panel-four">
+        <div class="center">
+          <img id="shack" src="img/shack.png" alt="cigales shack">
+        </div>
+      </div>
+    <!-- END PANEL FOUR -->
+
+    <!-- BEGIN PANEL FIVE -->
+      <div class="panel panel-five">
+        <div class="center">
+          <img id="castle" src="img/castle.png" alt="cigales castle">
+        </div>
+      </div>
+    <!-- END PANEL FIVE -->
+
+
+
+
+
+
+
+  </div>
+  <!-- END CONTAINER -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!-- OLD HTML-IDENTICAL TO GREENSOCK-TEST -->
+
+<!-- <div class="container">
+<div class="jumbotron">
+<h1>Greensock Test</h1>
+</div>
+
+<div class="center demo">
+<img id="logo-id" class="logo" src="img/sdlogonobgd.png" alt="sd-logo">
+</div>
+<div class="center bottom-logo demo">
+<img id="logo-two-id" class="logo-two" src="img/gdnobkd.png" alt="gd-logo">
+</div>
+
+<div class="center boxes">
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+</div>
+
+<div class="text-columns center row">
+<div class="col-style col-md-6">
+<form id="backwards-name-form" action="index.html" method="post">
+<div class="form-group">
+<label for="enter-name">Enter your name:</label>
+<input id="input" type="text" class="form-control" placeholder="Joey Kablowey">
+</div>
+<button type="submit" class="btn btn-default">Submit!</button>
+</form>
+<br><br>
+<p class="output-intro">Your Name Backwards:</p>
+<p id="output"></p>
+</div>
+</div>
+</div> -->
