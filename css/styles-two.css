@@ -197,6 +197,22 @@ body {
   }
 }
 
+@media only screen and (max-width: 320px) {
+  .panel-one {
+    background-size: 400%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .text-one {
+    font-size: 8vw;
+  }
+  .text-two {
+    margin-right: 1.5%;
+    font-size: 6vw;
+    text-align: right;
+  }
+}
+
 /*Panel Two*/
 @media only screen and (max-width: 481px) {
   .panel-two {
@@ -218,6 +234,14 @@ body {
 
   .text-three {
     font-size: 3.5vw;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #panel-two-text {
+    top: 50%;
+  }
+  .text-three {
+    font-size: 5vw;
   }
 }
 
@@ -244,10 +268,17 @@ body {
   }
   .text-four {
     font-size: 3vw;
-
   }
 }
-
+@media only screen and (max-width: 320px) {
+  .text-four {
+    font-size: 4vw;
+  }
+  #panel-three-right-text {
+    top: auto;
+    bottom: 0px;
+  }
+}
 /*Panel Four*/
 @media only screen and (max-width: 481px) {
   #shack {
@@ -265,7 +296,18 @@ body {
     bottom: 2.5%;
   }
 }
-
+@media only screen and (max-width: 320px) {
+  #panel-four-text .text-four {
+    font-size: 5vw;
+    text-align: justify;
+  }
+  #panel-four-text {
+    left: 4%;
+    right: 4%;
+    top: 33%;
+    bottom: auto;
+  }
+}
 /*Panel Five*/
 @media only screen and (max-width: 481px) {
   #castle {
@@ -281,6 +323,18 @@ body {
     left: 2.5%;
   }
 }
+@media only screen and (max-width: 320px) {
+  #panel-five-text .text-four {
+    font-size: 5vw;
+  }
+  #panel-five-text {
+    left: 4%;
+    right: 4%;
+    top: 10%;
+    bottom: auto;
+  }
+}
+
 
 
 
