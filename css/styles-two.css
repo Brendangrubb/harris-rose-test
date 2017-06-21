@@ -10,10 +10,12 @@ body {
 }
 
 .panel {
+  overflow: hidden;
   position: relative;
   width: 100%;
   border: 10px solid black;
   border-radius: 10px;
+  background: #5B110E;
 }
 
 /* Panel One-All Styles */
@@ -48,10 +50,6 @@ body {
   word-spacing: 3px;
 }
 
-@media only screen and (max-width: 768px) {
-
-}
-
 
 /* Panel Two-All Styles */
 #chimneys {
@@ -70,7 +68,7 @@ body {
   border-radius: 10px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 1px 1px 1px black;
-  color: #E7E6D4;
+  color: white;
   opacity: .9;
 }
 
@@ -79,11 +77,6 @@ body {
   letter-spacing: 1.5px;
   word-spacing: 3px;
 }
-
-@media only screen and (max-width: 768px) {
-
-}
-
 
 
 /* Panel Three-All Styles */
@@ -96,7 +89,7 @@ body {
 #panel-three-text {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 1px 1px 1px black;
-  color: #E7E6D4;
+  color: white;
   opacity: .9;
 }
 
@@ -127,11 +120,6 @@ body {
   word-spacing: 1px;
 }
 
-@media only screen and (max-width: 768px) {
-
-}
-
-
 
 /* Panel Four-All Styles */
 #shack {
@@ -140,10 +128,21 @@ body {
   height: auto;
 }
 
-@media only screen and (max-width: 768px) {
+#panel-four-text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: 1px 1px 1px black;
+  color: white;
+  opacity: .9;
 
+  position: absolute;
+  top: 53%;
+  left: 3%;
+  bottom: 1%;
+  max-width: 30%;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1% 1% 0% 1%;
+  border-radius: 10px;
 }
-
 
 
 /* Panel Five-All Styles */
@@ -153,18 +152,109 @@ body {
   height: auto;
 }
 
-@media only screen and (max-width: 768px) {
+#panel-five-text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: 1px 1px 1px black;
+  color: white;
+  opacity: .9;
 
+  position: absolute;
+  top: 50%;
+  left: 6%;
+  max-width: 45%;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1% 1% 0% 1%;
+  border-radius: 10px;
 }
 
 
 
+/*MEDIA QUERIES*/
+/*481-phone landscape*/
+/*320-pnone portrait*/
 
+/*All*/
+@media only screen and (max-width: 481px) {
+  .panel {
+    height: 100vh;
+  }
+}
 
+/*Panel One*/
+@media only screen and (max-width: 481px) {
+  .panel-one {
+    background: url("../img/cigales-sign-full.png");
+    background-size: cover;
+  }
+  #cigales-sign-full {
+    visibility: hidden;
+  }
+}
+/*
+@media only screen and (max-width: 320px) {
+  #cigales-sign-full {
+    width: inherit;
+    height: 50%;
+  }
+}*/
 
+/*Panel Two*/
+@media only screen and (max-width: 481px) {
+  .panel-two {
+    background: url("../img/chimneys.png");
+    background-size: cover;
+  }
 
+  #chimneys {
+    visibility: hidden;
+  }
 
+  #panel-two-text {
+    width: 95%;
+    height: 95%;
+    top: 2.5%;
+    left: 2.5%;
+    right: 2.5%;
+    bottom: 2.5%;
+  }
 
+  .text-three {
+    font-size: 4vw;
+  }
+}
+
+/*Panel Three*/
+@media only screen and (max-width: 481px) {
+  #red-door {
+    visibility: hidden;
+  }
+  .panel-three {
+    background: url("../img/red-door.png") center;
+    background-size: cover;
+  }
+}
+
+/*Panel Four*/
+@media only screen and (max-width: 481px) {
+  #shack {
+    visibility: hidden;
+  }
+  .panel-four {
+    background: url("../img/shack.png") center;
+    background-size: cover;
+  }
+}
+
+/*Panel Five*/
+@media only screen and (max-width: 481px) {
+  #castle {
+    visibility: hidden;
+  }
+  .panel-five {
+    background: url("../img/castle.png");
+    background-size: cover;
+  }
+}
 
 
 
