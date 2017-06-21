@@ -173,14 +173,14 @@ body {
 /*320-pnone portrait*/
 
 /*All*/
-@media only screen and (max-width: 481px) {
+@media only screen and (max-width: 500px) {
   .panel {
     height: 100vh;
   }
 }
 
 /*Panel One*/
-@media only screen and (max-width: 481px) {
+@media only screen and (max-width: 500px) {
   .panel-one {
     background: url("../img/cigales-sign-full.png");
     background-size: cover;
@@ -197,7 +197,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 350px) {
   .panel-one {
     background-size: 400%;
     background-position: center;
@@ -214,7 +214,7 @@ body {
 }
 
 /*Panel Two*/
-@media only screen and (max-width: 481px) {
+@media only screen and (max-width: 500px) {
   .panel-two {
     background: url("../img/chimneys.png");
     background-size: cover;
@@ -236,7 +236,7 @@ body {
     font-size: 3.5vw;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 350px) {
   #panel-two-text {
     top: 50%;
   }
@@ -246,7 +246,7 @@ body {
 }
 
 /*Panel Three*/
-@media only screen and (max-width: 481px) {
+@media only screen and (max-width: 500px) {
   #red-door {
     visibility: hidden;
   }
@@ -270,7 +270,7 @@ body {
     font-size: 3vw;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 350px) {
   .text-four {
     font-size: 4vw;
   }
@@ -280,7 +280,7 @@ body {
   }
 }
 /*Panel Four*/
-@media only screen and (max-width: 481px) {
+@media only screen and (max-width: 500px) {
   #shack {
     visibility: hidden;
   }
@@ -296,7 +296,7 @@ body {
     bottom: 2.5%;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 350px) {
   #panel-four-text .text-four {
     font-size: 5vw;
     text-align: justify;
@@ -309,7 +309,7 @@ body {
   }
 }
 /*Panel Five*/
-@media only screen and (max-width: 481px) {
+@media only screen and (max-width: 500px) {
   #castle {
     visibility: hidden;
   }
@@ -323,7 +323,7 @@ body {
     left: 2.5%;
   }
 }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 350px) {
   #panel-five-text .text-four {
     font-size: 5vw;
   }
