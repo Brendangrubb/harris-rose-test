@@ -18,6 +18,11 @@ body {
   background: #5B110E;
 }
 
+.wines {
+  border: 2px solid black;
+  opacity: .7;
+}
+
 /* Panel One-All Styles */
 #cigales-sign-full {
   position: relative;
@@ -78,6 +83,12 @@ body {
   word-spacing: 3px;
 }
 
+#panel-two-wine {
+  top: 1%;
+  left: 1%;
+  position: absolute;
+  width: 15%;
+}
 
 /* Panel Three-All Styles */
 #red-door {
@@ -120,6 +131,13 @@ body {
   word-spacing: 1px;
 }
 
+#panel-three-wine {
+  top: 1%;
+  left: 1%;
+  position: absolute;
+  width: 15%;
+}
+
 
 /* Panel Four-All Styles */
 #shack {
@@ -141,6 +159,13 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
   padding: 1% 1% 0% 1%;
   border-radius: 10px;
+}
+
+#panel-four-wine {
+  bottom: 1%;
+  right: 1%;
+  position: absolute;
+  width: 15%;
 }
 
 
@@ -166,11 +191,18 @@ body {
   border-radius: 10px;
 }
 
+#panel-five-wine {
+  bottom: 1%;
+  right: 1%;
+  position: absolute;
+  width: 15%;
+}
+
 
 
 /*MEDIA QUERIES*/
-/*481-phone landscape*/
-/*320-pnone portrait*/
+/*667-phone landscape*/
+/*375-pnone portrait*/
 
 /*All*/
 @media only screen and (max-width: 667px) {
