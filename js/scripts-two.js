@@ -3,7 +3,9 @@
   $(document).ready(function() {
 
     $("#panel-two-wine").click(function() {
-      $(".panel-two").toggleClass("panel-flip");
+      $(".panel-two-front").toggleClass("panel-flip");
+      $(".panel-two-front").toggleClass("panel-front-remove-y");
+      $(".panel-two-back").toggleClass("panel-back-remove-y");
     });
 
     $("#panel-three-wine").click(function() {

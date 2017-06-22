@@ -9,6 +9,8 @@ body {
   align-items: center;
 }
 
+
+/* Flip Styles */
 .wines {
   opacity: .4;
   transition: .2s;
@@ -26,8 +28,6 @@ body {
   border: 10px solid black;
   border-radius: 10px;
   background: #5B110E;
-  transition: .6s;
-  /*backface-visibility: hidden;*/
 }
 
 .panel-flip {
@@ -36,8 +36,18 @@ body {
   transform-style: preserve-3d;
 }
 
+.panel-front-remove-y {
+  transform: rotateY(0deg);
+}
+.panel-back-remove-y {
+  transform: rotateY(180deg);
+}
 
-/* Panel One-All Styles */
+.panel-back-display-none {
+  opacity: 0.0;
+}
+
+/* Panel One Styles */
 #cigales-sign-full {
   position: relative;
   top: 0;
@@ -70,7 +80,7 @@ body {
 }
 
 
-/* Panel Two-All Styles */
+/* Panel Two Styles */
 #chimneys {
   position: relative;
   width: 100%;
@@ -108,8 +118,25 @@ body {
   cursor: pointer;
 }
 
+.panel-two-front {
+  transition: .6s;
+  backface-visibility: hidden;
+}
 
-/* Panel Three-All Styles */
+.panel-two-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: .6s;
+  backface-visibility: hidden;
+  background-color: white;
+}
+
+#back-panel-two-text {
+  margin-left: 25%;
+}
+
+/* Panel Three Styles */
 #red-door {
   position: relative;
   width: 100%;
@@ -161,7 +188,7 @@ body {
   cursor: pointer;
 }
 
-/* Panel Four-All Styles */
+/* Panel Four Styles */
 #shack {
   position: relative;
   width: 100%;
@@ -195,7 +222,7 @@ body {
 }
 
 
-/* Panel Five-All Styles */
+/* Panel Five Styles */
 #castle {
   position: relative;
   width: 100%;
@@ -231,7 +258,7 @@ body {
 
 /*MEDIA QUERIES*/
 /*667-phone landscape*/
-/*375-pnone portrait*/
+/*385-pnone portrait*/
 
 /*All*/
 @media only screen and (max-width: 667px) {
@@ -245,6 +272,7 @@ body {
   .panel-one {
     background: url("../img/cigales-sign-full.png");
     background-size: cover;
+    background-position: center;
   }
   #cigales-sign-full {
     visibility: hidden;
@@ -258,7 +286,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
   .panel-one {
     background-size: 400%;
     background-position: center;
@@ -276,9 +304,16 @@ body {
 
 /*Panel Two*/
 @media only screen and (max-width: 667px) {
-  .panel-two {
+  .panel-two-front {
     background: url("../img/chimneys.png");
     background-size: cover;
+  }
+  .panel-two-back {
+    background: url("../img/red-door.png");
+    background-size: cover;
+  }
+  .panel-two {
+    height: auto;
   }
 
   #chimneys {
@@ -297,13 +332,15 @@ body {
     font-size: 3.5vw;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
   #panel-two-text {
-    top: 50%;
+    height: 130%;
+    top: 140%;
   }
   .text-three {
     font-size: 5vw;
   }
+
 }
 
 /*Panel Three*/
@@ -331,7 +368,7 @@ body {
     font-size: 3vw;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
   .text-four {
     font-size: 4vw;
   }
@@ -356,8 +393,12 @@ body {
     right: 2.5%;
     bottom: 2.5%;
   }
+  #panel-four-wine {
+    top: 1%;
+    left: 1%;
+  }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
   #panel-four-text .text-four {
     font-size: 5vw;
     text-align: justify;
@@ -367,6 +408,10 @@ body {
     right: 4%;
     top: 33%;
     bottom: auto;
+  }
+  #panel-four-wine {
+    top: 1%;
+    left: 1%;
   }
 }
 /*Panel Five*/
@@ -383,16 +428,24 @@ body {
     top: 30%;
     left: 2.5%;
   }
+  #panel-five-wine {
+    top: 1%;
+    left: 1%;
+  }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
   #panel-five-text .text-four {
-    font-size: 5vw;
+    font-size: 4.5vw;
   }
   #panel-five-text {
     left: 4%;
     right: 4%;
-    top: 10%;
+    top: 25%;
     bottom: auto;
+  }
+  #panel-five-wine {
+    top: 1%;
+    left: 1%;
   }
 }
 
