@@ -119,6 +119,14 @@ body {
   .panel-text {
     font-size: 25px;
   }
+  .panel-full-text {
+    font-size: 22px;
+    bottom: 10%;
+    top: auto;
+    left: 5%;
+    right: 20%;
+  }
+
 }
 
 /* Flip Styles */
