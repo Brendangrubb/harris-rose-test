@@ -109,16 +109,16 @@ body {
 
 /* Flip Styles */
 .panel-front {
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .panel-back {
   position: absolute;
   top: 0;
   left: 0;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   background-color: white;
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
   transition: 0.6s;
 }
 
@@ -127,14 +127,14 @@ body {
 }
 
 .panel-flip {
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
   transition: 0.6s;
-  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
 }
 .panel-flip-back {
-  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
   transition: 0.6s;
-  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
 }
 
 /* Panel Title Styles */
