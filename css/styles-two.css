@@ -15,7 +15,7 @@ body {
   border-radius: 10px;
   border: 10px solid #C7987C;
   overflow: hidden;
-  position: relative;
+  /*position: relative;*/
 }
 
 .panel-position {
@@ -46,24 +46,35 @@ body {
 }
 
 /* Flip Styles */
+.panel-front {
+  backface-visibility: hidden;
+}
 
-/*
+.panel-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  background-color: white;
+  transform: rotateY(180deg);
+  transition: 0.6s;
+}
+
 .panel-flip {
   transform: rotateY(180deg);
   transition: 0.6s;
   transform-style: preserve-3d;
 }
-
-.panel-front-remove-y {
+.panel-flip-back {
   transform: rotateY(0deg);
-}
-.panel-back-remove-y {
-  transform: rotateY(180deg);
+  transition: 0.6s;
+  transform-style: preserve-3d;
 }
 
-.panel-back-display-none {
+
+.panel-back-image {
   opacity: 0.0;
-}*/
+}
 
 /* Panel Title Styles */
 #cigales-sign-full {
@@ -111,11 +122,9 @@ body {
 
 
 /* Panel Two Styles */
-#chimneys {
-}
 
-#panel-two-wine {
-
+#panel-two-front {
+  transition: 0.6s;
 }
 
 
@@ -140,31 +149,6 @@ body {
   word-spacing: 3px;
 }*/
 
-
-
-
-
-/*
-
-
-.panel-two-front {
-  transition: .6s;
-  backface-visibility: hidden;
-}
-
-.panel-two-back {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: .6s;
-  backface-visibility: hidden;
-  background-color: white;
-}
-
-#back-panel-two-text {
-  margin-left: 25%;
-}
-*/
 
 
 
