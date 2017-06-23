@@ -46,39 +46,72 @@ body {
   opacity: 0.0;
 }*/
 
-/* Panel One Styles */
+/* Panel Title Styles */
 #cigales-sign-full {
   position: relative;
   top: 0;
   width: 100vw;
   height: auto;
-  -webkit-mask-image:-webkit-gradient(top,rgba(0,0,0,1),rgba(0,0,0,0.4));
+  -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))
 }
 
-
-#panel-one-text {
+#panel-title-text {
   position: absolute;
   top: 3%;
-  left: 4%;
-  font-family: 'Special Elite', cursive;
-  text-shadow: 1px 1px 1px black;
+  left: 3%;
+  font-family: 'Cinzel', serif;
+  text-shadow: 1px 1px 2px black;
   color: #E7E6D4;
   opacity: .9;
 
 }
 
 .text-one {
-  font-size: 5.5vw;
+  font-size: 5vw;
   letter-spacing: 2px;
   word-spacing: 3.5px;
-
+  margin-top: -2%;
 }
 
 .text-two {
-  font-size: 3vw;
+  font-size: 3.7vw;
   letter-spacing: 1.5px;
   word-spacing: 3px;
+  margin-left: 44.5%;
+  margin-top: -5%;
 }
+
+@media only screen and (min-width: 600px) {
+  .text-two {
+    margin-top: -2%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  /*.panel-one {
+    background-size: 400%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .text-one {
+    font-size: 8vw;
+  }
+  .text-two {
+    margin-right: 1.5%;
+    font-size: 6vw;
+    text-align: right;
+  }*/
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* Panel Two Styles */
@@ -268,40 +301,6 @@ body {
   }*/
 }
 
-/*Panel One*/
-@media only screen and (max-width: 667px) {
-  /*.panel-one {
-    background: url("../img/cigales-sign-full.png");
-    background-size: cover;
-    background-position: center;
-  }
-  #cigales-sign-full {
-    visibility: hidden;
-  }
-  .text-one {
-    font-size: 6vw;
-  }
-  .text-two {
-    margin-top: 3%;
-    font-size: 4vw;
-  }*/
-}
-
-@media only screen and (max-width: 400px) {
-  /*.panel-one {
-    background-size: 400%;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .text-one {
-    font-size: 8vw;
-  }
-  .text-two {
-    margin-right: 1.5%;
-    font-size: 6vw;
-    text-align: right;
-  }*/
-}
 
 /*Panel Two*/
 /*@media only screen and (max-width: 667px) {
