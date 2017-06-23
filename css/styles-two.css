@@ -181,11 +181,37 @@ body {
 
 
 
-/* Panel Two Styles */
 
 #panel-two-front {
   transition: 0.6s;
 }
+#panel-three-front {
+  transition: 0.6s;
+}
+#panel-four-front {
+  transition: 0.6s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
@@ -224,7 +250,7 @@ body {
 
 
 
-
+/*OLD STYLES*/
 
 
 /* Panel Three Styles */

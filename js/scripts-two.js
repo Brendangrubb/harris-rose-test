@@ -6,8 +6,22 @@
       $("#panel-two-front").toggleClass("panel-flip");
       $("#panel-two-back").toggleClass("panel-flip-back");
     });
+    $("#panel-three-wine").click(function() {
+      $("#panel-three-front").toggleClass("panel-flip");
+      $("#panel-three-back").toggleClass("panel-flip-back");
+    });
+    $("#panel-four-wine").click(function() {
+      $("#panel-four-front").toggleClass("panel-flip");
+      $("#panel-four-back").toggleClass("panel-flip-back");
+    });
 // Text Toggles
     $("#panel-text-one").click(function() {
+      alert("yoyoyo");
+    });
+    $("#panel-text-two").click(function() {
+      alert("yoyoyo");
+    });
+    $("#panel-text-three").click(function() {
       alert("yoyoyo");
     });
 
