@@ -1,6 +1,6 @@
 /* Page Styles */
 body {
-  background-color: #E7E6D4;
+  background-color: rgba(231,230,212, 1);
   font-family: 'Cinzel', serif;
 }
 
@@ -10,18 +10,26 @@ body {
   align-items: center;
 }
 
-/*START FROM HERE*/
+/*START HEREEEEEEE*/
 .panel {
   border-radius: 0px;
   width: 102%;
   margin-left: -1%;
-  border-top: 20px solid black;
   overflow: hidden;
-  /*position: relative;*/
+  z-index: -1;
+  position: relative;
+}
+
+.gradient {
+  background: -webkit-linear-gradient(top, rgba(231,230,212, 0) 70%,
+rgba(231,230,212, 1) 98%); /* Chrome10+,Safari5.1+ */
+  position: relative;
+  transition: 1s;
 }
 
 .panel-position {
   position: relative;
+  margin-bottom: -6%;
 }
 
 .panel-text {
@@ -104,6 +112,9 @@ body {
     right: 5%;
     width: 10%;
   }
+  .panel-position {
+    margin-bottom: -4%;
+  }
 }
 
 @media only screen and (min-width: 832px) {
@@ -118,6 +129,9 @@ body {
   .panel-back-wine-pic {
     width: 22vw;
     margin-top: 15px;
+  }
+  .panel-position {
+    margin-bottom: -2%;
   }
 }
 
