@@ -14,6 +14,10 @@
       $("#panel-four-front").toggleClass("panel-flip");
       $("#panel-four-back").toggleClass("panel-flip-back");
     });
+    $("#panel-five-wine").click(function() {
+      $("#panel-five-front").toggleClass("panel-flip");
+      $("#panel-five-back").toggleClass("panel-flip-back");
+    });
 // Text Toggles
     $("#panel-text-one").click(function() {
       alert("yoyoyo");
@@ -22,6 +26,9 @@
       alert("yoyoyo");
     });
     $("#panel-text-three").click(function() {
+      alert("yoyoyo");
+    });
+    $("#panel-text-four").click(function() {
       alert("yoyoyo");
     });
 
