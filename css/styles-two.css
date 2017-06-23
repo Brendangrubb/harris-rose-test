@@ -53,6 +53,10 @@ body {
   cursor: pointer;
 }
 
+.panel-text-visibility {
+  display: none;
+}
+
 .panel-back-info {
   position: absolute;
   top: 1%;
@@ -189,6 +193,8 @@ body {
   }
 }
 
+
+/*TRANSITIONS */
 #panel-two-front {
   transition: 0.6s;
 }
@@ -201,8 +207,6 @@ body {
 #panel-five-front {
   transition: 0.6s;
 }
-
-
 
 
 
