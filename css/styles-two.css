@@ -2,7 +2,6 @@
 body {
   background-color: #E7E6D4;
   font-family: 'Cinzel', serif;
-
 }
 
 .center {
@@ -35,6 +34,19 @@ body {
   letter-spacing: 1.5px;
   word-spacing: 2px;
   opacity: .75;
+}
+
+.panel-full-text {
+  overflow: scroll;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  right: 5%;
+  bottom: 20%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  border-radius: 10px;
+  padding: 1%;
 }
 
 .panel-text:hover {
@@ -98,8 +110,6 @@ body {
     margin-top: 15px;
   }
 }
-
-
 
 @media only screen and (min-width: 992px) {
   .panel-text {
@@ -178,9 +188,6 @@ body {
 
   }
 }
-
-
-
 
 #panel-two-front {
   transition: 0.6s;

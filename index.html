@@ -1,211 +1,150 @@
 <!-- THIS IS THE VERSION OF THE SITE WITHOUT GSAP/SM, TO VIEW THE VERSION WITH ANIMATIONS, CHANGE THIS FILE NAME TO INDEX-NO-ANIMATIONS AND CHANGE INDEX-WITH-ANIMATIONS TO INDEX.HTML -->
 
-
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Rosé Test</title>
-  <!-- BOOTSTRAP CDN -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha383-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg3Va+PmSTsz/K68vbdEjh3u" crossorigin="anonymous">
-  <!-- GOOGLE FONTS -->
-<link href="https://fonts.googleapis.com/css?family=Cinzel:700" rel="stylesheet">
-  <!-- CUSTOM STYLESHEET -->
-  <link rel="stylesheet" href="css/styles-two.css">
-  <!-- JQUERY CDN -->
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <!-- CUSTOM SCRIPTS -->
-  <script src="js/scripts-two.js"></script>
-</head>
-<body>
-  <div class="container">
-
-
-    <!-- BEGIN PANEL TITLE -->
-    <div class="panel-title">
-      <div class="panel-title-image center">
-        <img id="cigales-sign-full" src="img/cigales-sign-full.png" alt="cigales sign">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Rosé Test</title>
+    <!-- BOOTSTRAP CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha383-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg3Va+PmSTsz/K68vbdEjh3u" crossorigin="anonymous">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:700" rel="stylesheet">
+    <!-- CUSTOM STYLESHEET -->
+    <link rel="stylesheet" href="css/styles-two.css">
+    <!-- JQUERY CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- CUSTOM SCRIPTS -->
+    <script src="js/scripts-two.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- BEGIN PANEL TITLE -->
+      <div class="panel-title">
+        <div class="panel-title-image center">
+          <img id="cigales-sign-full" src="img/cigales-sign-full.png" alt="cigales sign">
+        </div>
+        <div id="panel-title-text">
+          <p class="text-one">Every Rosé Has its Thorn</p>
+          <p class="text-two">How they do it in</p>
+        </div>
       </div>
-      <div id="panel-title-text">
-        <p class="text-one">Every Rosé Has its Thorn</p>
-        <p class="text-two">How they do it in</p>
-      </div>
-    </div>
-    <!-- END PANEL TITLE -->
+      <!-- END PANEL TITLE -->
 
-    <br><br><br><br>
+      <br><br><br><br>
 
-    <!-- BEGIN PANEL TWO -->
-        <div class="panel-position">
-          <div class="panel-front" id="panel-two-front">
-            <img class="panel" src="img/chimneys.png" alt="cigales chimney">
-            <div class="panel-text" id="panel-text-one">
-              <p>The Chimneys of Cigales</p>
+      <!-- BEGIN PANEL TWO -->
+      <div class="panel-position">
+        <div class="panel-front" id="panel-two-front">
+          <img class="panel" src="img/chimneys.png" alt="cigales chimney">
+          <div class="panel-text" id="panel-text-one">
+            <!-- <p>The Chimneys of Cigales</p> -->
+          </div>
+
+          <div class="panel-full-text">
+            <p>A bottle of Cabernet Sauvignon capsule with corkscrews and characteristics. Glass of Chardonnay stem on vineyards from the valley quality. Sip quality estate fruit made with grapes grown unique vine. Farmed locations planted sustainabilty winemakers grow harvest before aged to ensure each varietal.</p>
+          </div>
+
+        </div>
+        <div class="panel panel-back" id="panel-two-back">
+          <img class="panel panel-back-image" src="img/chimneys.png" alt="">
+          <div class="panel-back-info">
+            <a href="https://www.twoquarts.com/mucy-rosado.htm"><img class="panel-back-wine-pic" src="img/mucy-rosado.png" alt="Mucy Rosado"></a>
+            <div class="panel-back-text">
+              <p>Mucy Rosado - £7.55</p>
+              <p>A delicious unoaked tempranillo from old vines in Cigales. Hard to find such a quality, expressive wine for the price;
             </div>
           </div>
-          <div class="panel panel-back" id="panel-two-back">
-            <img class="panel panel-back-image" src="img/chimneys.png" alt="">
-            <div class="panel-back-info">
-                <a href="https://www.twoquarts.com/mucy-rosado.htm"><img class="panel-back-wine-pic" src="img/mucy-rosado.png" alt="Mucy Rosado"></a>
-              <div class="panel-back-text">
-                <p>Mucy Rosado - £7.55</p>
-                <p>A delicious unoaked tempranillo from old vines in Cigales. Hard to find such a quality, expressive wine for the price;
+        </div>
+        <img class="wines" id="panel-two-wine" src="img/mucy-rosado.png" alt="Mucy Rosado">
+      </div>
+      <!-- END PANEL TWO -->
+
+      <br><br>
+      <br><br>
+      <br><br>
+      <br><br>
+
+      <!-- BEGIN PANEL THREE -->
+      <div class="panel-position">
+        <div class="panel-front" id="panel-three-front">
+          <img class="panel" src="img/red-door.png" alt="cigales red door">
+          <div class="panel-text" id="panel-text-two">
+            <p>The Red Door</p>
+          </div>
+        </div>
+        <div class="panel panel-back" id="panel-three-back">
+          <img class="panel panel-back-image" src="img/chimneys.png" alt="">
+          <div class="panel-back-info">
+            <a href="https://www.twoquarts.com/mucy-rosado.htm"><img class="panel-back-wine-pic" src="img/mucy-rosado.png" alt="Mucy Rosado"></a>
+            <div class="panel-back-text">
+              <p>Mucy Rosado - £7.55</p>
+              <p>A delicious unoaked tempranillo from old vines in Cigales. Hard to find such a quality, expressive wine for the price;
               </div>
             </div>
           </div>
-          <img class="wines" id="panel-two-wine" src="img/mucy-rosado.png" alt="Mucy Rosado">
+          <img class="wines" id="panel-three-wine" src="img/mucy-rosado.png" alt="Mucy Rosado">
         </div>
-    <!-- END PANEL TWO -->
+        <!-- END PANEL THREE -->
 
-<br><br>
-<br><br>
-<br><br>
-<br><br>
+        <br><br>
+        <br><br>
+        <br><br>
+        <br><br>
 
-<!-- BEGIN PANEL THREE -->
-    <div class="panel-position">
-      <div class="panel-front" id="panel-three-front">
-        <img class="panel" src="img/red-door.png" alt="cigales red door">
-        <div class="panel-text" id="panel-text-two">
-          <p>The Red Door</p>
-        </div>
-      </div>
-      <div class="panel panel-back" id="panel-three-back">
-        <img class="panel panel-back-image" src="img/chimneys.png" alt="">
-        <div class="panel-back-info">
-            <a href="https://www.twoquarts.com/mucy-rosado.htm"><img class="panel-back-wine-pic" src="img/mucy-rosado.png" alt="Mucy Rosado"></a>
-          <div class="panel-back-text">
-            <p>Mucy Rosado - £7.55</p>
-            <p>A delicious unoaked tempranillo from old vines in Cigales. Hard to find such a quality, expressive wine for the price;
+        <!-- BEGIN PANEL FOUR -->
+        <div class="panel-position">
+          <div class="panel-front" id="panel-four-front">
+            <img class="panel" src="img/shack.png" alt="cigales shack">
+            <div class="panel-text" id="panel-text-three">
+              <p>The Lot</p>
+            </div>
           </div>
-        </div>
-      </div>
-      <img class="wines" id="panel-three-wine" src="img/mucy-rosado.png" alt="Mucy Rosado">
-    </div>
-<!-- END PANEL THREE -->
-
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-
-<!-- BEGIN PANEL FOUR -->
-    <div class="panel-position">
-      <div class="panel-front" id="panel-four-front">
-        <img class="panel" src="img/shack.png" alt="cigales shack">
-        <div class="panel-text" id="panel-text-three">
-          <p>The Lot</p>
-        </div>
-      </div>
-      <div class="panel panel-back" id="panel-four-back">
-        <img class="panel panel-back-image" src="img/chimneys.png" alt="">
-        <div class="panel-back-info">
-            <a href="https://www.twoquarts.com/mucy-rosado.htm"><img class="panel-back-wine-pic" src="img/mucy-rosado.png" alt="Mucy Rosado"></a>
-          <div class="panel-back-text">
-            <p>Mucy Rosado - £7.55</p>
-            <p>A delicious unoaked tempranillo from old vines in Cigales. Hard to find such a quality, expressive wine for the price;
+          <div class="panel panel-back" id="panel-four-back">
+            <img class="panel panel-back-image" src="img/chimneys.png" alt="">
+            <div class="panel-back-info">
+              <a href="https://www.twoquarts.com/mucy-rosado.htm"><img class="panel-back-wine-pic" src="img/mucy-rosado.png" alt="Mucy Rosado"></a>
+              <div class="panel-back-text">
+                <p>Mucy Rosado - £7.55</p>
+                <p>A delicious unoaked tempranillo from old vines in Cigales. Hard to find such a quality, expressive wine for the price;
+                </div>
+              </div>
+            </div>
+            <img class="wines" id="panel-four-wine" src="img/mucy-rosado.png" alt="Mucy Rosado">
           </div>
-        </div>
-      </div>
-      <img class="wines" id="panel-four-wine" src="img/mucy-rosado.png" alt="Mucy Rosado">
-    </div>
-<!-- END PANEL FOUR -->
+          <!-- END PANEL FOUR -->
 
-<br><br>
-<br><br>
-<br><br>
-<br><br>
+          <br><br>
+          <br><br>
+          <br><br>
+          <br><br>
 
-<!-- BEGIN PANEL FIVE -->
-    <div class="panel-position">
-      <div class="panel-front" id="panel-five-front">
-        <img class="panel" src="img/castle.png" alt="cigales castle">
-        <div class="panel-text" id="panel-text-four">
-          <p>Iglesia de Santiago</p>
-        </div>
-      </div>
-      <div class="panel panel-back" id="panel-five-back">
-        <img class="panel panel-back-image" src="img/chimneys.png" alt="">
-        <div class="panel-back-info">
-            <a href="https://www.twoquarts.com/mucy-rosado.htm"><img class="panel-back-wine-pic" src="img/mucy-rosado.png" alt="Mucy Rosado"></a>
-          <div class="panel-back-text">
-            <p>Mucy Rosado - £7.55</p>
-            <p>A delicious unoaked tempranillo from old vines in Cigales. Hard to find such a quality, expressive wine for the price;
+        <!-- BEGIN PANEL FIVE -->
+        <div class="panel-position">
+          <div class="panel-front" id="panel-five-front">
+            <img class="panel" src="img/castle.png" alt="cigales castle">
+            <div class="panel-text" id="panel-text-four">
+              <p>Iglesia de Santiago</p>
+            </div>
           </div>
-        </div>
-      </div>
-      <img class="wines" id="panel-five-wine" src="img/mucy-rosado.png" alt="Mucy Rosado">
+          <div class="panel panel-back" id="panel-five-back">
+            <img class="panel panel-back-image" src="img/chimneys.png" alt="">
+            <div class="panel-back-info">
+              <a href="https://www.twoquarts.com/mucy-rosado.htm"><img class="panel-back-wine-pic" src="img/mucy-rosado.png" alt="Mucy Rosado"></a>
+              <div class="panel-back-text">
+                <p>Mucy Rosado - £7.55</p>
+                <p>A delicious unoaked tempranillo from old vines in Cigales. Hard to find such a quality, expressive wine for the price;
+                </div>
+              </div>
+            </div>
+            <img class="wines" id="panel-five-wine" src="img/mucy-rosado.png" alt="Mucy Rosado">
+          </div>
+          <!-- END PANEL FIVE -->
+
+      <br><br>
+      <br><br>
+
     </div>
-<!-- END PANEL FOUR -->
-
-<br><br>
-<br><br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- OLD HTML -->
-
-    <!-- BEGIN PANEL THREE -->
-      <!-- <div class="panel panel-three">
-        <div class="center">
-          <img id="red-door" src="img/red-door.png" alt="cigales chimney hut with a red door">
-        </div>
-        <div id="panel-three-text">
-          <p id="panel-three-left-text" class="text-four">Rosé, called rosado here, is made by cold macerating the skins together with the juice in a deposit for eight to 24 hours or until the right color tone from extraction of the skins is obtained. The winemaker makes the call.</p>
-          <p id="panel-three-right-text" class="text-four">By controlling the temperature, the fermentation does not begin. After this time the juice drains or is pressed away from the pips and skins and is moved to another deposit to begin fermenting. Almost always there is yeast added to inoculate, or jump-start, this process.</p>
-        </div>
-        <div class="wines">
-          <img id="panel-three-wine" src="img/mucy-rosado.png" alt="Mucy Rosado">
-        </div>
-      </div> -->
-    <!-- END PANEL THREE -->
-
-    <!-- BEGIN PANEL FOUR -->
-      <!-- <div class="panel panel-four">
-        <div class="center">
-          <img id="shack" src="img/shack.png" alt="cigales shack">
-        </div>
-        <div id="panel-four-text">
-          <p class="text-four">Cigales is a small farming community of 5,000 in western Spain. They’ve been making wine since before Ferdinand of Aragon disguised himself as a mule driver in an attempt to get close to Isabel the Catholic. Clarete is not red wine, but it’s not exactly rosé either. So, what is it?</p>
-        </div>
-        <div class="wines">
-          <img id="panel-four-wine" src="img/mucy-rosado.png" alt="Mucy Rosado">
-        </div>
-      </div> -->
-    <!-- END PANEL FOUR -->
-
-    <!-- BEGIN PANEL FIVE -->
-      <!-- <div class="panel panel-five">
-        <div class="center">
-          <img id="castle" src="img/castle.png" alt="cigales castle">
-        </div>
-        <div id="panel-five-text">
-          <p class="text-four">The ecclesiastical icon of Cigales town is the Iglesia de Santiago Apostol, started in 1535 by Rodrigo Gil de Hontañon. Finished in 1772, its monumental white, limestone stones reveal the special position that Cigales held due to its proximity to the royal courts of Valladolid nearby. It regularly hosted counts from Benavente and kings and nobles from afar. It had residual star power. And they toasted with clarete.</p>
-        </div>
-        <div class="wines">
-          <img id="panel-five-wine" src="img/mucy-rosado.png" alt="Mucy Rosado">
-        </div>
-      </div> -->
-    <!-- END PANEL FIVE -->
-
-  </div>
-  <!-- END CONTAINER -->
-</body>
+    <!-- END CONTAINER -->
+  </body>
 </html>
