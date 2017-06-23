@@ -10,25 +10,44 @@ body {
 }
 
 .panel {
+  border-radius: 10px;
+  width: 100%;
+  border-radius: 10px;
+  border: 10px solid #C7987C;
   overflow: hidden;
   position: relative;
-  width: 100%;
-  border: 10px solid black;
-  border-radius: 10px;
-  background: #5B110E;
 }
 
-/* Flip Styles */
-/*.wines {
+.panel-position {
+  position: relative;
+}
+
+.wines {
   opacity: .4;
   transition: .2s;
+  position: absolute;
+  bottom: 15%;
+  right: 5%;
+  width: 15%;
 }
 
 .wines:hover {
   opacity: .7;
   transition: .2s;
+  cursor: pointer;
 }
 
+@media only screen and (min-width: 600px) {
+  .wines {
+    bottom: 10%;
+    right: 5%;
+    width: 10%;
+  }
+}
+
+/* Flip Styles */
+
+/*
 .panel-flip {
   transform: rotateY(180deg);
   transition: 0.6s;
@@ -84,43 +103,23 @@ body {
 @media only screen and (min-width: 600px) {
   .text-two {
     margin-top: -2%;
+    margin-left: 46%;
+
   }
 }
-
-@media only screen and (max-width: 400px) {
-  /*.panel-one {
-    background-size: 400%;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .text-one {
-    font-size: 8vw;
-  }
-  .text-two {
-    margin-right: 1.5%;
-    font-size: 6vw;
-    text-align: right;
-  }*/
-}
-
-
-
-
-
-
-
-
-
 
 
 
 /* Panel Two Styles */
-/*#chimneys {
-  position: relative;
-  width: 100%;
-  height: auto;
+#chimneys {
 }
 
+#panel-two-wine {
+
+}
+
+
+/*
 #panel-two-text {
   position: absolute;
   top: 5%;
@@ -139,18 +138,14 @@ body {
   font-size: 2vw;
   letter-spacing: 1.5px;
   word-spacing: 3px;
-}
+}*/
 
-#panel-two-wine {
-  top: 1%;
-  left: 1%;
-  position: absolute;
-  width: 15%;
-}
 
-#panel-two-wine:hover {
-  cursor: pointer;
-}
+
+
+
+/*
+
 
 .panel-two-front {
   transition: .6s;
@@ -168,7 +163,25 @@ body {
 
 #back-panel-two-text {
   margin-left: 25%;
-}*/
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Panel Three Styles */
 /*#red-door {
@@ -294,12 +307,9 @@ body {
 /*667-phone landscape*/
 /*385-pnone portrait*/
 
-/*All*/
-@media only screen and (max-width: 667px) {
-  /*.panel {
-    height: 100vh;
-  }*/
-}
+
+
+
 
 
 /*Panel Two*/
