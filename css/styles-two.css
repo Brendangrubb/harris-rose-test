@@ -9,18 +9,6 @@ body {
   align-items: center;
 }
 
-
-/* Flip Styles */
-.wines {
-  opacity: .4;
-  transition: .2s;
-}
-
-.wines:hover {
-  opacity: .7;
-  transition: .2s;
-}
-
 .panel {
   overflow: hidden;
   position: relative;
@@ -28,6 +16,17 @@ body {
   border: 10px solid black;
   border-radius: 10px;
   background: #5B110E;
+}
+
+/* Flip Styles */
+/*.wines {
+  opacity: .4;
+  transition: .2s;
+}
+
+.wines:hover {
+  opacity: .7;
+  transition: .2s;
 }
 
 .panel-flip {
@@ -45,21 +44,23 @@ body {
 
 .panel-back-display-none {
   opacity: 0.0;
-}
+}*/
 
 /* Panel One Styles */
 #cigales-sign-full {
   position: relative;
   top: 0;
-  width: 100%;
+  width: 100vw;
   height: auto;
+  -webkit-mask-image:-webkit-gradient(top,rgba(0,0,0,1),rgba(0,0,0,0.4));
 }
+
 
 #panel-one-text {
   position: absolute;
   top: 3%;
   left: 4%;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Special Elite', cursive;
   text-shadow: 1px 1px 1px black;
   color: #E7E6D4;
   opacity: .9;
@@ -81,7 +82,7 @@ body {
 
 
 /* Panel Two Styles */
-#chimneys {
+/*#chimneys {
   position: relative;
   width: 100%;
   height: auto;
@@ -134,10 +135,10 @@ body {
 
 #back-panel-two-text {
   margin-left: 25%;
-}
+}*/
 
 /* Panel Three Styles */
-#red-door {
+/*#red-door {
   position: relative;
   width: 100%;
   height: auto;
@@ -186,10 +187,10 @@ body {
 
 #panel-three-wine:hover {
   cursor: pointer;
-}
+}*/
 
 /* Panel Four Styles */
-#shack {
+/*#shack {
   position: relative;
   width: 100%;
   height: auto;
@@ -219,11 +220,11 @@ body {
 
 #panel-four-wine:hover {
   cursor: pointer;
-}
+}*/
 
 
 /* Panel Five Styles */
-#castle {
+/*#castle {
   position: relative;
   width: 100%;
   height: auto;
@@ -253,7 +254,7 @@ body {
 
 #panel-five-wine:hover {
   cursor: pointer;
-}
+}*/
 
 
 /*MEDIA QUERIES*/
@@ -262,14 +263,14 @@ body {
 
 /*All*/
 @media only screen and (max-width: 667px) {
-  .panel {
+  /*.panel {
     height: 100vh;
-  }
+  }*/
 }
 
 /*Panel One*/
 @media only screen and (max-width: 667px) {
-  .panel-one {
+  /*.panel-one {
     background: url("../img/cigales-sign-full.png");
     background-size: cover;
     background-position: center;
@@ -283,11 +284,11 @@ body {
   .text-two {
     margin-top: 3%;
     font-size: 4vw;
-  }
+  }*/
 }
 
 @media only screen and (max-width: 400px) {
-  .panel-one {
+  /*.panel-one {
     background-size: 400%;
     background-position: center;
     background-repeat: no-repeat;
@@ -299,11 +300,11 @@ body {
     margin-right: 1.5%;
     font-size: 6vw;
     text-align: right;
-  }
+  }*/
 }
 
 /*Panel Two*/
-@media only screen and (max-width: 667px) {
+/*@media only screen and (max-width: 667px) {
   .panel-two-front {
     background: url("../img/chimneys.png");
     background-size: cover;
@@ -341,10 +342,10 @@ body {
     font-size: 5vw;
   }
 
-}
+}*/
 
 /*Panel Three*/
-@media only screen and (max-width: 667px) {
+/*@media only screen and (max-width: 667px) {
   #red-door {
     visibility: hidden;
   }
@@ -376,9 +377,10 @@ body {
     top: auto;
     bottom: 0px;
   }
-}
+}*/
+
 /*Panel Four*/
-@media only screen and (max-width: 667px) {
+/*@media only screen and (max-width: 667px) {
   #shack {
     visibility: hidden;
   }
@@ -413,9 +415,10 @@ body {
     top: 1%;
     left: 1%;
   }
-}
+}*/
+
 /*Panel Five*/
-@media only screen and (max-width: 667px) {
+/*@media only screen and (max-width: 667px) {
   #castle {
     visibility: hidden;
   }
@@ -448,79 +451,4 @@ body {
     left: 1%;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*OLD STYLES-IDENTICAL TO GREENSOCK-TEST*/
-
-/*.center {
-  display: flex;
-  justify-content: space-around;
-}
-
-img.center {
-  display: flex;
-  justify-content: center;
-}
-
-.col-style {
-  padding: 10px;
-  border: 1px solid black;
-  border-radius: 10px;
-}
-
-.output-intro {
-  visibility: hidden;
-}
-
-.visible {
-  visibility: visible;
-}
-
-.logo {
-  margin: 20px;
-  max-width: 300px;
-  width: 30%;
-  position:absolute;
-}
-
-.logo-two {
-  margin: 20px;
-  max-width: 300px;
-  width: 30%;
-  position:absolute;
-
-}
-.text-columns {
-  margin-top: 50px;
-}
-
-.bottom-logo {
-  margin-top: 125px;
-}
-
-.box {
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 375px;
-  width: 100px;
-  height: 10vh;
-  background-color: rgba(30,215,115,.8);
-  border: 8px solid #d71e82;
-  border-radius: 15px;
-}*/
+*/
