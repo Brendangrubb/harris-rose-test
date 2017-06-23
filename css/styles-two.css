@@ -10,11 +10,12 @@ body {
   align-items: center;
 }
 
+/*START FROM HERE*/
 .panel {
-  border-radius: 10px;
-  width: 100%;
-  border-radius: 10px;
-  border: 10px solid #C7987C;
+  border-radius: 0px;
+  width: 102%;
+  margin-left: -1%;
+  border-top: 20px solid black;
   overflow: hidden;
   /*position: relative;*/
 }
