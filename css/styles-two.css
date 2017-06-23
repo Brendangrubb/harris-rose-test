@@ -58,6 +58,7 @@ body {
   width: 50%;
   margin-top: 10%;
   margin-right: 20%;
+  font-size: 3vw;
 }
 
 .wines {
@@ -81,8 +82,24 @@ body {
     right: 5%;
     width: 10%;
   }
-
 }
+
+@media only screen and (min-width: 832px) {
+  .panel-back-text {
+    float: right;
+    text-align: right;
+    width: 50%;
+    margin-top: 10%;
+    margin-right: 15%;
+    font-size: 25px;
+  }
+  .panel-back-wine-pic {
+    width: 22vw;
+    margin-top: 15px;
+  }
+}
+
+
 
 @media only screen and (min-width: 992px) {
   .panel-text {
