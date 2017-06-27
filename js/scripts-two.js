@@ -52,6 +52,8 @@
       $("#panel-full-text-four").toggleClass("panel-text-visibility");
     });
 
+// OVERRIDE BOOTSTRAP
+    $("div").removeClass("container");
 
 
 
