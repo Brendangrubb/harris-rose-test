@@ -1,7 +1,7 @@
 /* Page Styles */
 body {
   /*background-color: rgba(231,230,212, 1);*/
-  font-family: 'Cinzel', serif;
+  /*font-family: 'Cinzel', serif;*/
 }
 
 .center {
@@ -51,6 +51,7 @@ body {
   bottom: 20%;
   background-color: rgba(0, 0, 0, 0.3);
   color: white;
+  letter-spacing: .1em;
   border: 3px solid rgba(255, 255, 255, 0.3);
   border-radius: 10px;
   padding: 1%;
@@ -111,6 +112,12 @@ body {
   }
   .panel-position {
     margin-bottom: -4%;
+  }
+  .panel-text {
+    font-size: 25px;
+  }
+  .panel-full-text {
+    font-size: 18px;
   }
 }
 
