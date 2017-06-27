@@ -54,8 +54,9 @@
 
 // OVERRIDE BOOTSTRAP
     $("div").removeClass("container");
+    $("div").removeClass("panel-title");
 
-
+    $("header").addClass("navbar-fixed-top");
 
 
 
