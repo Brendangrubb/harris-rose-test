@@ -57,7 +57,7 @@
     $("div").removeClass("panel-title");
 
     $("header").addClass("navbar-fixed-top");
-
+    $("#mobile-sticky").addClass("navbar-opacity");
 
 
   });
