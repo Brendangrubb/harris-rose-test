@@ -155,63 +155,88 @@ body {
 
 /*PANEL CASE STYLES*/
 .panel-case {
-  max-width: 60%;
-  /*max-height: 400px;*/
-  /*height: 20vw;*/
-  border-radius: 10px;
-  margin-top: 10%;
-  margin-bottom: 7%;
-  padding: 15px;
-  padding-bottom: 10%;
-  background-color: rgba(231,230,212, 1);
-  border: 2px solid black;
+  margin-top: 5%;
+  margin-bottom: 5%;
   position: relative;
 }
 
 .panel-case-pic {
-  /*position: absolute;*/
-  top: 2%;
-  left: 2%;
-  max-width: 90%;
-  border-radius: 10px;
+  max-width: 45vw;
+  border-radius: 10px 10px 10px 10px;
+  padding-left: 1%;
+}
+
+.panel-case-words-title {
+  font-weight: bold;
+  font-size: 1.1em;
 }
 
 .panel-case-words {
-  text-align: justify;
-  position: absolute;
-  bottom: 2%;
-  max-width: 80%;
+  float: right;
+  max-width: 48%;
+  padding-right: 2%;
   font-family: 'Playfair Display', serif;
-  display: none;
+  font-size: .85em;
 }
-.panel-case-words-mobile {
+
+.mucy-brothers {
   position: absolute;
-  bottom: 0%;
-  max-width: 80%;
-  font-family: 'Playfair Display', serif;
+  top: 50%;
+  font-size: 1.5em;
+  border-radius: 3px;
+  padding: 1% 2% 0% 2%;
+  background-color: rgba(0,0,0,.4);
+  color: #E7E6D4;
+}
+
+
+@media only screen and (min-width: 420px) {
+  .panel-case-words-title {
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+
+  .panel-case-words {
+    float: right;
+    max-width: 48%;
+    padding-right: 2%;
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
+  }
 }
 
 @media only screen and (min-width: 600px) {
-  .panel-case-words-mobile {
-    display: none;
+  .panel-case-words-title {
+    font-weight: bold;
+    font-size: 1.3em;
   }
+
   .panel-case-words {
-    display: unset;
+    float: right;
+    max-width: 48%;
+    padding-right: 2%;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
   }
-  .panel-case {
-    padding-bottom: 30%;
+  .mucy-brothers {
+    font-size: 3em;
   }
 }
 
-@media only screen and (min-width: 739px) {
-  .panel-case-words {
-    font-size: 15px;
+@media only screen and (min-width: 992px) {
+  .panel-case-pic {
+    max-width: 40vw;
   }
-}
 
-@media only screen and (min-width: 900px) {
-  .panel-case {
-    padding-bottom: 20%;
+  .panel-case-words-title {
+    font-size: 1.5em;
+  }
+
+  .panel-case-words {
+    font-size: 1.4em;
+  }
+  .mucy-brothers {
+    font-size: 3em;
   }
 }
 
