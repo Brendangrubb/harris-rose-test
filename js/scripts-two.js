@@ -21,10 +21,12 @@
 // Text Toggles
     $("#panel-text-one").click(function() {
       $("#panel-text-one").toggleClass("panel-text-visibility");
+      $("#panel-text-one-mobile-hide").toggleClass("panel-text-visibility");
       $("#panel-full-text-one").toggleClass("panel-text-visibility");
     });
     $("#panel-full-text-one").click(function() {
       $("#panel-text-one").toggleClass("panel-text-visibility");
+      $("#panel-text-one-mobile-hide").toggleClass("panel-text-visibility");
       $("#panel-full-text-one").toggleClass("panel-text-visibility");
     });
     $("#panel-text-two").click(function() {
