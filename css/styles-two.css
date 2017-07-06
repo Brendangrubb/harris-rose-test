@@ -4,6 +4,7 @@ body {
   /*font-family: 'Cinzel', serif;*/
 }
 
+
 .center {
   display: flex;
   justify-content: center;
@@ -219,6 +220,8 @@ body {
     padding-right: 2%;
     font-family: 'Playfair Display', serif;
     font-size: 1.2em;
+    margin-top: 10%;
+
   }
   .mucy-brothers {
     font-size: 3em;
@@ -236,7 +239,9 @@ body {
 
   .panel-case-words {
     font-size: 1.4em;
+    margin-right: 7%;
   }
+
   .mucy-brothers {
     font-size: 3em;
   }
